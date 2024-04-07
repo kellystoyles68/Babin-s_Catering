@@ -1,0 +1,362 @@
+header{
+    width: 100%;
+      height:200px;
+      background-color:#003366;
+      border-style: solid;
+      border: 2px;
+
+}
+.logo{
+    background-image:"Images/BC_Logo.docx" ;
+
+}
+.Picture_foodtruck{
+    background-image: url("https://www.favfamilyrecipes.com/wp-content/uploads/2023/05/Three-Easy-Fish-Tacos.jpg");
+    width:100%;
+    height:300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+.External{
+    color: blue;
+    text-decoration: underline;
+}
+.Header_Right{
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+    color: white;
+    font-weight: 700;
+}
+.Header_Left{
+    float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: #003366;
+    height: 130px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.Footer_Left{
+    float: left;
+    padding: 15px;
+    color: white;
+}
+.Footer_Right{
+    float: right;
+    color: white;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+.Menu_Box{
+    float: auto;
+    width: 550px;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.Menu_Item{
+    font-weight: 700;
+}
+.Menu_Item_Desc{
+    font-style: italic;
+    background-color: white;
+}
+ul.Food_Truck{
+    list-style-type: none;
+}
+li::before{
+    content: "\1f41f";
+    margin-right: 5px;
+}
+.Page_Switch_Box{
+    height: 300px;
+    padding-top: 0px;
+    background-color: #003366;
+    color: white;
+    margin-top: 0px;
+}
+
+.Welcome_Page_Switch_Button{
+    border: 1px solid  white;
+    background-color: #003366;
+    color: white;
+    padding: 3px;
+    border-radius: 10px 10px;
+}
+a.Welcome_Page_Switch_Button:hover{
+    background-color: white;
+    color: #003366;
+}
+.Parallax_Welcome {
+    background-image: url("Images/Picture7.png");
+    min-height: 400px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+.Parallax_Truck {
+    background-image: url("Images/Picture4.png");
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.About_Us{
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top:35px;                                                                                                                                               
+        font-size: 65px;
+        font-style:  bold,center;
+        font-family: Papyrus Light;
+        font-family: cursive;
+       
+}
+
+
+.accordion {
+    background-color:#003366 ;
+    color: white;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    text-align: middle;
+    outline: none;
+    transition: none;  
+}
+
+.active, .accordion:hover {
+    background-color: #5f8db6;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color:black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height ease-out;
+    font-family: cursive;
+    font-style: italic;
+    padding-bottom: 1px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://www.spendwithpennies.com/wp-content/uploads/2022/10/1200-How-to-Make-a-Charcuterie-Board-SpendWithPennies.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+bold {
+    font-weight: bold;
+}
+      
+.accordion2 {
+    background-color:#003366 ;
+    color: white;
+    cursor: pointer;
+    padding: 1px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: none;  
+  }
+.active, .accordion:hover {
+      background-color: #5f8db6;
+    }
+    
+.accordion:after {
+      content: '\002B';
+      color:black;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+    
+.active:after {
+      content: "\2212";
+    }
+    
+.panel {
+      padding: 0px;
+      background-color: white;
+      max-height: 0;
+      overflow:hidden;
+      transition: max-height, ease-out;
+      font-family: cursive;
+      font-style: italic;
+      padding-bottom: 2px;
+      text-align: center; 
+      font-size: 20px;
+    }
+ 
+.parallax1 {
+      /* The image used */
+      background-image: url("https://www.spendwithpennies.com/wp-content/uploads/2022/10/1200-How-to-Make-a-Charcuterie-Board-SpendWithPennies.jpg");
+    
+      /* Set a specific height */
+      min-height : 350px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment:fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+.parallax{
+      /* The image used */
+      background-image: url("https://www.thefoodhussy.com/wp-content/uploads/2020/02/12B-2BAir2BFryer2BBacon2BWrapped2BScallops-6.jpg");
+    
+      /* Set a specific height */
+      min-height : 350px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+.parallax2{
+      /* The image used */
+      background-image: url("https://hips.hearstapps.com/del.h-cdn.co/assets/16/50/1481827663-delish-stuffed-pork-loin-delish-2.jpg");
+    
+      /* Set a specific height */
+      min-height : 350px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+.parallax3{
+      /* The image used */
+      background-image: url("https://www.italianfoodforever.com/wp-content/uploads/2020/02/rootvegtop22-copy.jpg");
+    
+      /* Set a specific height */
+      min-height : 350px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+.parallax4{
+      /* The image used */
+      background-image: url("https://www.rockrecipes.com/wp-content/uploads/2007/12/Bakeapple-Cheesecake-side-view-of-cheesecake.jpg");
+    
+      /* Set a specific height */
+      min-height : 350px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+.parallax5{
+      /* The image used */
+      background-image: url("https://www.spendwithpennies.com/wp-content/uploads/2023/06/1200-Caesar-Salad-Recipe-SpendWithPennies.jpg");
+    
+      /* Set a specific height */
+      min-height : 350px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+.barbox {
+      width: 100%;
+      height:200px;
+      background-color:#003366;
+      border-style: solid;
+      border: 2px;
+  }
+h1{
+      font-size: 33px;
+      font-family: Papyrus Light;
+      font-family:cursive;
+  
+  }
+h2{
+      font-size: 24px;
+      font-family: Papyrus Light;
+  }
+h3{
+      font-size: 22px;
+      font-family: Papyrus Light;
+  }
+h4{
+      font-size: 15px;
+      font-family: Papyrus Light;
+      font-style: italic;
+  }
+  
+h5{  
+      padding-top:50px;                                                                                                                                               
+      font-size: 65px;
+      font-style: italics, bold , center;
+      font-family: Papyrus Light;
+      font-family:cursive;
+      color: white;
+    }
+h6 { 
+        font-size: 40px;
+        font-family: Papyrus Light;
+        font-family:cursive;  
+    }
+
+text{
+      font-size: 15px;
+      font-family: Papyrus Light;
+  }
+text2{
+    font-size: 28px;
+    font-family: Papyrus Light;
+    color:white;
+}
+
+whitewords {
+    color: white;
+  }
